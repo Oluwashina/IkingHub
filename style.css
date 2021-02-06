@@ -118,3 +118,50 @@ body{
     position: relative;
     text-align: right;
 }
+.years_title{
+    position: relative;
+    color: #ff7e00;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 85px;
+    margin-top: 32px;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+.years_time{
+    color: #ff7e00;
+    font-weight: 700;
+    font-size: 62px;
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+.years_time::before{
+    position: absolute;
+    content: '';
+    top: -27px;
+    left: -11px;
+    width: 65px;
+    height: 45px;
+    border: 2px dashed #ddd;
+    z-index: -1;
+}
+
+/* services section */
+.btn-trade{
+    color: #1360ef;
+    border-color: #1360ef;
+}
+.btn-trade:hover{
+    background-color: #1360ef;
+    color: #fff;
+}
+
+/* whatsap widget */
+.whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 99999999;
+}
