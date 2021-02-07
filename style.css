@@ -303,8 +303,7 @@ body{
 .copyright-content {
     padding-top: 34px;
     padding-bottom: 34px;
-    display: flex;
-    align-items: center;
+
 }
 .copy_desc {
     font-size: 15px;

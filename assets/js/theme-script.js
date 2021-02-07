@@ -50,7 +50,7 @@ $.fn.exists = function () {
   HT PreLoader
 --------------------------------------*/
 function preloader() {
-   $('#ht-preloader').delay(0).fadeOut();
+   $('#ht-preloader').delay(200).fadeOut();
 };
 
 /*------------------------------------
