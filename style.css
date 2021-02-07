@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Fira Sans', sans-serif;
@@ -163,8 +166,6 @@ body{
 /* faq secrion */
 .faq-area{
     background-color: #f8f9fe;
-    padding-top: 80px;
-    padding-bottom: 80px;
     position: relative;
     z-index: 1;
 }
@@ -174,6 +175,143 @@ body{
     margin-bottom: 25px;
     color: #283a5e;
 }
+
+
+/* footer section */
+.footer-links{
+    font-size: 16px;
+    color: #677286;
+    line-height: 30px;
+    margin-top: 26px;
+    font-weight: 400;
+}
+.footer-links a{
+    display: block;
+    color: #677286;
+    transition: all .3s;
+}
+.footer-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 15px;
+    margin-bottom: 24px;
+    display: inline-block;
+    position: relative;
+    color: #283a5e;
+}
+.footer-title .footer-title-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 15px;
+    height: 4px;
+    background-color: #ff7e00;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.footer-title .footer-title-shape:nth-child(2) {
+    left: 17px;
+    width: 10px;
+    opacity: .8;
+}
+.footer-title .footer-title-shape:nth-child(3) {
+    left: 29px;
+    width: 8px;
+    opacity: .6;
+}
+.footer-link li{
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-link li a{
+    display: inline-block;
+    color: #677286;
+    transition: all .3s;
+    font-weight: 400;
+}
+.footer-meta{
+    font-size: 18px;
+    color: #283a5e;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.footer-quick li{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.footer-quick li a {
+    color: #283a5e;
+    transition: all .3s;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid rgba(103,114,134,0.1);
+    display: block;
+    position: relative;
+}
+.footer-quick li a i.fa-instagram {
+    color: #cd3099;
+}
+.divider {
+    position: relative;
+    border-top: 2px solid #eee;
+}
+.divider:before{
+    position: absolute;
+    content: '';
+    top: -5px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #ddd;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.divider:after {
+    position: absolute;
+    content: '';
+    top: -5px;
+    left: auto;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+.divider .divider_circle {
+    position: absolute;
+    content: '';
+    top: -5px;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #ddd;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+.copyright-content {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    display: flex;
+    align-items: center;
+}
+.copy_desc {
+    font-size: 15px;
+    color: #677286;
+    font-weight: 500;
+}
+
 
 /* whatsap widget */
 .whatsapp{
