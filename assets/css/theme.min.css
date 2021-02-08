@@ -159,7 +159,9 @@ Shadow
   Header
 ------------------------*/
 .site-header.navbar-dark .navbar-nav .nav-link { color: #ffffff; }
-.site-header.navbar-dark .navbar-nav .nav-link:focus, .site-header.navbar-dark .navbar-nav .nav-link:hover { color: #212529; }
+.site-header.navbar-dark .navbar-nav .nav-link:focus, .site-header.navbar-dark .navbar-nav .nav-link:hover {
+	 color: #e69a25; 
+	}
 #header-wrap { padding: 10px 0; position: relative; }
 #header-wrap.fixed-header { padding: 5px 0; position: fixed !important; top: 0; left: 0; width: 100%; z-index: 999 !important; background: #ffffff !important; box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15) !important; animation: smoothScroll 1s forwards; }
 
@@ -196,7 +198,7 @@ header .navbar-nav .nav-item { margin: 0 15px }
 .navbar-collapse { border-radius: 7px; background: #ffffff; max-height: 400px; left: 0; padding: 10px; position: absolute; z-index: 99; top: 50px; width: 100%; overflow: auto; border: medium none; -webkit-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15); -moz-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15); box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15); }
 .navbar-nav .dropdown-toggle::after { position: absolute; top: 50%; right: 0; margin: -.1rem 0.5em 0 0; }
 .site-header.navbar-dark .navbar-nav .nav-link{color: rgba(0,0,0,.5)}
-.site-header.navbar-dark .navbar-nav .nav-link.active, .site-header.navbar-dark .navbar-nav .nav-link:focus, .site-header.navbar-dark .navbar-nav .nav-link:hover{ color: #1360ef; }
+.site-header.navbar-dark .navbar-nav .nav-link.active, .site-header.navbar-dark .navbar-nav .nav-link:focus, .site-header.navbar-dark .navbar-nav .nav-link:hover{ color: #e69a25; }
 }
 
 
