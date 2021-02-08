@@ -155,11 +155,11 @@ body{
 
 /* services section */
 .btn-trade{
-    color: #1360ef;
-    border-color: #1360ef;
+    color: #e69a25;
+    border-color: #e69a25;
 }
 .btn-trade:hover{
-    background-color: #1360ef;
+    background-color: #e69a25;
     color: #fff;
 }
 
@@ -285,13 +285,18 @@ body{
     display: block;
     position: relative;
 }
-.footer-quick li a:hover{
+/* .footer-quick li a:hover{
     border-color: #e69a25;
-}
+} */
 .footer-quick li a i.fa-instagram {
     color: #e69a25;
 }
-
+.footer-quick li:nth-child(1) a:hover{
+    border-color: #062440;
+}
+.footer-quick li:nth-child(2) a:hover{
+    border-color: #e69a25; 
+}
 .divider {
     position: relative;
     border-top: 2px solid #eee;

@@ -21,7 +21,7 @@ p { color: #8090b5; line-height: 1.7; }
 .text-dark{color: #1d1d33 !important;}
 .text-primary {color: #1360ef !important;}
 .text-muted { color: rgb(140, 152, 164) !important }
-section{padding: 5rem 0}
+section{padding: 3rem 0}
 
 /* ------------------------
 Transition
