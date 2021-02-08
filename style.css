@@ -31,7 +31,7 @@ body{
 }
 .loader-container .loader-ripple div {
     position: absolute;
-    border: 4px solid gold;
+    border: 4px solid #e69a25;
     opacity: 1;
     border-radius: 50%;
     animation: loader-ripple 1s cubic-bezier(0,0.2,0.8,1) infinite;
@@ -60,7 +60,7 @@ body{
 
 /* hero section styles */
 .hero-area {
-    background-color: #4e3a9d;
+    background-color: #062440;
     color: #fff;
 }
 .hero-area:before {
@@ -81,8 +81,8 @@ body{
     width: 17px;
     height: 17px;
     display: block;
-    border-top: 3px solid #ff7e00;
-    border-left: 3px solid #ff7e00;
+    border-top: 3px solid #e69a25;
+    border-left: 3px solid #e69a25;
     position: relative;
     margin-bottom: 20px;
 }
@@ -93,7 +93,7 @@ body{
     left: 3px;
     width: 5px;
     height: 5px;
-    background-color: #ff7e00;
+    background-color: #e69a25;
 }
 .about_sub{
     font-size: 18px;
@@ -106,7 +106,7 @@ body{
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 15px;
-    color: #283a5e;
+    color: #062440;
     line-height: 60px;
 }
 .about_desc {
@@ -123,7 +123,7 @@ body{
 }
 .years_title{
     position: relative;
-    color: #ff7e00;
+    color: #e69a25;
     font-size: 18px;
     font-weight: 500;
     padding-left: 60px;
@@ -132,7 +132,7 @@ body{
     line-height: 28px;
 }
 .years_time{
-    color: #ff7e00;
+    color: #e69a25;
     font-weight: 700;
     font-size: 62px;
     position: absolute;
@@ -173,12 +173,12 @@ body{
     /* font-size: 40px; */
     font-weight: 700;
     margin-bottom: 25px;
-    color: #283a5e;
+    color: #062440;
 }
 
 /* mail section */
 .mail{
-    background-color: #4e3a9d;
+    background-color: #062440;
     box-shadow: 0px 0px 30px 0px rgba(52, 74, 121, 0.25);
     padding: 20px 50px 60px 50px;
     border-radius: 18px 18px 18px 18px;
@@ -192,14 +192,14 @@ body{
     fill: #ffffff;
     color: #ffffff;
     font-weight: bold;
-    background-color: #ff7e00;
+    background-color: #e69a25;
     border-radius: 10px 10px 10px 10px;
     padding: 25px 30px 25px 30px; 
     transition: all 0.5s ;
 }
 .mail-div:hover{
     background: #fff;
-    color: #4e3a9d;
+    color: #062440;
     text-decoration: none;
 }
 
@@ -208,7 +208,6 @@ body{
     font-size: 16px;
     color: #677286;
     line-height: 30px;
-    margin-top: 26px;
     font-weight: 400;
 }
 .footer-links a{
@@ -224,7 +223,7 @@ body{
     margin-bottom: 24px;
     display: inline-block;
     position: relative;
-    color: #283a5e;
+    color: #062440;
 }
 .footer-title .footer-title-shape {
     position: absolute;
@@ -232,7 +231,7 @@ body{
     left: 0;
     width: 15px;
     height: 4px;
-    background-color: #ff7e00;
+    background-color: #e69a25;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
@@ -257,9 +256,12 @@ body{
     transition: all .3s;
     font-weight: 400;
 }
+.footer-link li a:hover{
+    color: #e69a25;
+}
 .footer-meta{
     font-size: 18px;
-    color: #283a5e;
+    color: #062440;
     text-transform: capitalize;
     font-weight: 700;
     margin-top: 25px;
@@ -270,7 +272,7 @@ body{
     margin-bottom: 10px;
 }
 .footer-quick li a {
-    color: #283a5e;
+    color: #062440;
     transition: all .3s;
     font-size: 16px;
     width: 40px;
@@ -283,9 +285,13 @@ body{
     display: block;
     position: relative;
 }
-.footer-quick li a i.fa-instagram {
-    color: #cd3099;
+.footer-quick li a:hover{
+    border-color: #e69a25;
 }
+.footer-quick li a i.fa-instagram {
+    color: #e69a25;
+}
+
 .divider {
     position: relative;
     border-top: 2px solid #eee;
