@@ -60,10 +60,13 @@ body{
 
 /* hero section styles */
 .hero-area {
-    background-color: #062440;
-    color: #fff;
+    /* color: #fff; */
+    /* background-image: url('./images/hero.jpg'); */
+    background: linear-gradient(rgba(6, 36, 64, 0.6), rgba(6, 36, 64, 0.6)), url('./images/hero.jpg');
+    background-size: cover;
+    background-position: center;
 }
-.hero-area:before {
+/* .hero-area:before {
     position: absolute;
     content: '';
     top: 0;
@@ -74,7 +77,7 @@ body{
     background-size: cover;
     background-position: center;
     opacity: .3;
-}
+} */
 
 /* about section */
 .heading-circle {
@@ -95,6 +98,8 @@ body{
     height: 5px;
     background-color: #e69a25;
 }
+
+
 .about_sub{
     font-size: 18px;
     text-transform: capitalize;
